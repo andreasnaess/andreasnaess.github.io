@@ -60,14 +60,6 @@ p{
   }
 }
 
-@media(max-width:768px) {
-  #download-link{
-    font-size: 4.75em;
-  }
-}
-
-
-
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */

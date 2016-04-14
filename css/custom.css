@@ -11,7 +11,7 @@ body {
 }
 
 .container{
-    margin: 0 auto;
+  margin: 0 auto;
   width: 100%;
 }
 
@@ -33,21 +33,37 @@ img{
 }
 
 a{
-  font-size: large;
+  font-size: 2em;
+}
+
+p{
+  color: white;
+  font-size: 2em;
+}
+
+#footer-text{
+  font-size: 14px;
+  color: white;
 }
 
 .intro-text .name {
-    display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+  display: block;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 2em;
+  font-weight: 700;
 }
 
 @media(min-width:768px) {
-    .intro-text .name {
-        font-size: 4.75em;
-    }
+  .intro-text .name{
+    font-size: 4.75em;
+  }
+}
+
+@media(max-width:768px) {
+  #download-link{
+    font-size: 4.75em;
+  }
 }
 
 

@@ -1,18 +1,12 @@
 /* Sticky footer styles
 -------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
   background-color: #2c3e50;
 }
 
-.container{
-  margin: 0 auto;
-  width: 100%;
+nav{
+  background-color: #4DB6AC;
 }
 
 .footer {
@@ -28,22 +22,24 @@ img{
   margin: 0 auto;
 }
 
-.row{
-  margin-top: 50px;
+.content-box{
+  margin-top: 30px;
 }
 
-a{
-  font-size: 2em;
-}
-
-p{
+.info-text{
   color: white;
   font-size: 2em;
 }
+
 
 #footer-text{
   font-size: 14px;
   color: white;
+}
+
+#download-link{
+  color: #4DB6AC;
+  font-size: 2em;
 }
 
 .intro-text .name {
@@ -52,6 +48,7 @@ p{
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 2em;
   font-weight: 700;
+  color: white;
 }
 
 @media(min-width:768px) {
@@ -59,13 +56,6 @@ p{
     font-size: 4.75em;
   }
 }
-
-@media(max-width:768px) {
-  #download-link{
-    font-size: 4.75em;
-  }
-}
-
 
 
 /* Custom page CSS
@@ -86,4 +76,13 @@ body > .container {
 
 code {
   font-size: 80%;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+  padding-bottom: 60px;
 }
